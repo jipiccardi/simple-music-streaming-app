@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
     return ProviderScope(
         child: MaterialApp.router(
       title: 'Music App',
-      debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true, brightness: Brightness.light),
       routerConfig: appRouter,
     ));
